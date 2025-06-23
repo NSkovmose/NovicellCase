@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.ProductsController.SearchProducts(API.Models.Requests.ProductSearchQueryParams)">
+            <summary>
+            Returns a paginated list of products with optional search and category filter.
+            </summary>
+            <param name="query">Paging and filter parameters</param>
+            <returns>A paginated result of products</returns>
+        </member>
+        <member name="M:API.Controllers.ProductsController.GetProductsByCategory(API.Models.Requests.CategoryQueryParams)">
+            <summary>
+            Returns a paginated list of products for a given category.
+            </summary>
+            <param name="query">Category ID with paging parameters</param>
+            <returns>A paginated result of products</returns>
+        </member>
+        <member name="M:API.Controllers.ProductsController.GetById(System.String)">
+            <summary>
+            Returns a single product based on Id.
+            </summary>
+            <param name="id">Product id</param>
+            <returns>A single product</returns>
+        </member>
+    </members>
+</doc>

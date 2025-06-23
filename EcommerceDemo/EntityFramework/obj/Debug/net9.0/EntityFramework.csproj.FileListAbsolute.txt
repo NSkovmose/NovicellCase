@@ -1,0 +1,17 @@
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\EntityFramework.deps.json
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\EntityFramework.runtimeconfig.json
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\EntityFramework.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\EntityFramework.pdb
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\Shared.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\bin\Debug\net9.0\Shared.pdb
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.csproj.AssemblyReference.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.AssemblyInfoInputs.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.AssemblyInfo.cs
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFr.4B064B60.Up2Date
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\refint\EntityFramework.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.pdb
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\EntityFramework.genruntimeconfig.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\EntityFramework\obj\Debug\net9.0\ref\EntityFramework.dll

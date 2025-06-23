@@ -1,0 +1,11 @@
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\bin\Debug\net9.0\Shared.deps.json
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\bin\Debug\net9.0\Shared.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\bin\Debug\net9.0\Shared.pdb
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.AssemblyInfoInputs.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.AssemblyInfo.cs
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.csproj.CoreCompileInputs.cache
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\refint\Shared.dll
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\Shared.pdb
+C:\Testprojects\NovicellCase\EcommerceDemo\Shared\obj\Debug\net9.0\ref\Shared.dll

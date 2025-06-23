@@ -1,0 +1,68 @@
+﻿trigger:
+  branches:
+    include:
+      - main
+
+variables:
+  buildConfiguration: 'Release'
+  apiProjectPath: 'API/API.csproj'
+  outputFolder: '$(Build.ArtifactStagingDirectory)/api'
+
+stages:
+- stage: Build
+  jobs:
+  - job: BuildApi
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+    - task: UseDotNet@2
+      inputs:
+        packageType: sdk
+        version: '9.x.x'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        command: 'restore'
+        projects: '$(apiProjectPath)'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Build API'
+      inputs:
+        command: 'build'
+        projects: '$(apiProjectPath)'
+        arguments: '--configuration $(buildConfiguration)'
+
+    - task: DotNetCoreCLI@2
+      displayName: 'Publish API'
+      inputs:
+        command: 'publish'
+        publishWebProjects: false
+        projects: '$(apiProjectPath)'
+        arguments: '--configuration $(buildConfiguration) --output $(outputFolder)'
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(outputFolder)'
+        ArtifactName: 'api-drop'
+
+- stage: Deploy
+  jobs:
+  - deployment: DeployApi
+    environment: 'production'
+    pool:
+      vmImage: 'windows-latest'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: DownloadBuildArtifacts@0
+            inputs:
+              artifactName: 'api-drop'
+              downloadPath: '$(System.ArtifactsDirectory)'
+
+          - task: AzureWebApp@1
+            inputs:
+              azureSubscription: ''
+              appName: 'InfinityElectronics'
+              package: '$(System.ArtifactsDirectory)/api-drop'
